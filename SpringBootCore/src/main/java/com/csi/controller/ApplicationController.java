@@ -12,4 +12,11 @@ public class ApplicationController {
     public String sayHello(){
         return "Welcome to Pune";
     }
+
+    @GetMapping("/services")
+    public String services(){
+        return "Java | Spring Boot";
+    }
+    
+
 }
